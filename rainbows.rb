@@ -51,16 +51,8 @@ rainbow = [
     b: 0,
     g:255}}
 ]
- puts "meh"
+ 
 
-  # rainbow.each do |key|
-  #   puts key
-  # end
-  #noooooooooooo >_<
-
-  #print ONLY the key in the each element of the array.....how to access the keys???
-  #can't call .key on a fixnum....asking for the key prints the whole element.....
-  # I really have no idea how to access just the keys inside each element.....
-
-
-    puts rainbow[0] #nooooooooo >_<
+  rainbow.each do |i|
+    puts i.keys
+  end
